@@ -1,0 +1,21 @@
+function* foo() {
+  var index = 0;
+  var index2 = 5;
+  while (index <= 2 && index2 <= 9) {
+  	yield index2++;
+	index = yield;
+	}
+}
+
+var iterator = foo();
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next(-1));
+console.log(iterator.next());
+console.log(iterator.next(3));
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());

@@ -1,0 +1,22 @@
+{
+  "name": "testing-package",
+  "version": "1.0.0",
+  "description": "To test this package",
+  "main": "hello-world.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.4",
+    "multer": "^1.3.0",
+    "vim": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "testing"
+  ],
+  "author": "murthy",
+  "license": "ISC"
+}

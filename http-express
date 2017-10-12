@@ -1,0 +1,8 @@
+var express = require("express")
+var app = express();
+
+app.get("/", (req, res) => res.send("Hello world"));
+
+var server = app.listen(8095, () => {
+	console.log("Request from server %s:%s", server.address().address, server.address().port);
+});
